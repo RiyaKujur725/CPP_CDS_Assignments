@@ -2,9 +2,8 @@
 
 🔹 Programs
 
-    1. Hello World HelloWorld.cpp
-
-    2. Calculator Calculator.cpp
+1. Hello World HelloWorld.cpp
+2. Calculator Calculator.cpp
 
 🔹 Observation Both programs compiled and executed successfully. The calculator handled operations correctly based on user input.
 
