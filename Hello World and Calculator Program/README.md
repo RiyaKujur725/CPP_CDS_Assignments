@@ -3,6 +3,7 @@ AIM :
 To demonstrate basic input-output operations, arithmetic calculations using functions, and simple string handling in C++ by creating two programs: a calculator performing four basic arithmetic operations with error checking, and a greeting program that asks for the user's name and displays a personalized welcome message.
 
 APPLICATION USED: VS Code
+
 THEORY : 
 
 C++ is a versatile programming language that supports procedural programming through the use of functions and simple input/output mechanisms. The first program showcases how functions can modularize code by separating logic for addition, subtraction, multiplication, and division. Functions enhance readability, reusability, and maintainability. It also introduces the concept of type casting, shown in the division function to produce a floating-point result.
