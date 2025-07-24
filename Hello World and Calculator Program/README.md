@@ -17,6 +17,7 @@ Both programs exemplify foundational programming concepts essential for beginner
 ALGORITHM : 
 
 For the Calculator Program:
+
 I. Start the program.
 II. Display a welcome message explaining the purpose.
 III. Prompt the user to enter two whole numbers separated by a space.
@@ -31,6 +32,7 @@ IX. Display a thank you message.
 X. End the program.
 
 For the Greeting Program:
+
 I. Start the program.
 II. Prompt the user to enter their name.
 III. Read the input as a string variable name.
