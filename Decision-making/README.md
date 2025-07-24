@@ -10,6 +10,8 @@ A vowel or consonant checker for single alphabet inputs.
 
 These programs collectively illustrate core concepts such as input/output handling, conditional statements, loops, and switch-case structures in C++.
 
+APPLICATION USED : VS Code
+
 THEORY : 
 
 Programming in C++ enables us to translate logic and mathematical operations into automated processes that computers can execute. The provided programs cover essential programming structures and concepts:
