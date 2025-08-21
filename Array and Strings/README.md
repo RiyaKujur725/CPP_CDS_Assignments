@@ -1,7 +1,7 @@
 ## Aim  
 To implement various basic operations on arrays and strings such as searching, finding minimum and maximum values, displaying elements, calculating sum and average, reversing strings, and checking palindromes using C++.  
 
----
+
 
 ## Theory  
 
@@ -21,7 +21,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 - **Sum** is the total of all elements.  
 - **Average** is the sum divided by the number of elements.  
 
----
+
 
 ## Algorithms  
 
@@ -37,7 +37,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 4. If key not found, print message.  
 5. End.  
 
----
+
 
 ### 2. Finding Minimum and Maximum Marks in Array  
 **Input:** Number of subjects `n`, marks for each subject.  
@@ -53,7 +53,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 5. Display `min` and `max`.  
 6. End.  
 
----
+
 
 ### 3. Search for a Mark in Student Marks Array  
 **Input:** Number of subjects `n`, marks, mark to search.  
@@ -67,7 +67,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 4. If not found, print message.  
 5. End.  
 
----
+
 
 ### 4. Student Marks Recorder (Input and Display)  
 **Input:** Number of subjects and marks.  
@@ -79,7 +79,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 3. Loop through the array and print all marks with subject number.  
 4. End.  
 
----
+
 
 ### 5. Palindrome Checker for a String  
 **Input:** A string without spaces.  
@@ -93,7 +93,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 5. Else, print not palindrome message.  
 6. End.  
 
----
+
 
 ### 6. Display Elements of an Array  
 **Input:** Predefined array of integers.  
@@ -105,7 +105,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 3. Loop through array and print each element.  
 4. End.  
 
----
+
 
 ### 7. String Reverser (No Spaces Input)  
 **Input:** A string without spaces.  
@@ -117,7 +117,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 3. Print reversed string.  
 4. End.  
 
----
+
 
 ### 8. Sum and Average of Array Elements  
 **Input:** Number of elements, array elements.  
@@ -132,7 +132,7 @@ A string is a sequence of characters. Operations on strings include reversing an
 6. Print array, sum, and average.  
 7. End.  
 
----
+
 
 ## Conclusion  
 
