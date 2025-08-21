@@ -1,50 +1,92 @@
-AIM : 
+## AIM  
+To demonstrate **basic input-output operations**, **arithmetic calculations using functions**, and **simple string handling in C++** by creating two programs:  
 
-To demonstrate basic input-output operations, arithmetic calculations using functions, and simple string handling in C++ by creating two programs: a calculator performing four basic arithmetic operations with error checking, and a greeting program that asks for the user's name and displays a personalized welcome message.
+1. A **calculator** performing four basic arithmetic operations with error checking.  
+2. A **greeting program** that asks for the user's name and displays a personalized welcome message.  
 
-APPLICATION USED: VS Code
 
-THEORY : 
 
-C++ is a versatile programming language that supports procedural programming through the use of functions and simple input/output mechanisms. The first program showcases how functions can modularize code by separating logic for addition, subtraction, multiplication, and division. Functions enhance readability, reusability, and maintainability. It also introduces the concept of type casting, shown in the division function to produce a floating-point result.
+## APPLICATION USED  
+**Visual Studio Code (VS Code)**  
 
-Handling user input is critical, and the program demonstrates checking for invalid operations like division by zero to prevent runtime errors.
 
-The second program illustrates basic string input and output, focusing on user interaction by asking for a name and providing personalized feedback. It shows how C++ manages string variables and simple cin and cout usage.
 
-Both programs exemplify foundational programming concepts essential for beginners learning C++, including function declaration and definition, input validation, and basic control flow.
+## THEORY  
 
-ALGORITHM : 
+C++ is a versatile programming language that supports **procedural programming** through the use of **functions** and **input/output mechanisms**.  
 
-For the Calculator Program:
+### Calculator Program  
+- Showcases how **functions modularize code** by separating logic for addition, subtraction, multiplication, and division.  
+- Improves **readability, reusability, and maintainability** of code.  
+- Introduces **type casting** in the division function to produce a floating-point result.  
+- Demonstrates **error handling** (checking for division by zero).  
 
-I. Start the program.
-II. Display a welcome message explaining the purpose.
-III. Prompt the user to enter two whole numbers separated by a space.
-IV. Read the two integer inputs num1 and num2.
-V. Call the function add with num1 and num2, and display the sum.
-VI. Call the function subtract with num1 and num2, and display the difference.
-VII. Call the function multiply with num1 and num2, and display the product.
-VIII. Check if num2 is zero:
-  a. If not zero, call the function divide with num1 and num2, and display the quotient.
-  b. If zero, display an error message about division by zero.
-IX. Display a thank you message.
-X. End the program.
+### Greeting Program  
+- Illustrates **basic string input/output** for user interaction.  
+- Uses a `string` variable to read the user’s name.  
+- Displays a **personalized greeting**, showing how C++ manages text data with `cin` and `cout`.  
 
-For the Greeting Program:
+Both programs exemplify foundational programming concepts essential for beginners:  
+- **Function declaration and definition**  
+- **Input validation**  
+- **Basic control flow**  
 
-I. Start the program.
-II. Prompt the user to enter their name.
-III. Read the input as a string variable name.
-IV. Display a personalized greeting using the entered name.
-V. End the program.
 
-CONCLUSION : 
 
-The two programs together serve as an excellent introduction to essential C++ programming concepts. The calculator program demonstrates the power of functions in breaking down complex operations into manageable tasks, improving code clarity and reusability. It also introduces important topics such as type casting and error handling, particularly preventing division by zero, which is critical for creating robust programs.
+## ALGORITHM  
 
-The greeting program, while simpler, highlights user interaction through string input and output, fostering a better understanding of how to manage text data in C++.
+### For the Calculator Program  
 
-Both programs reinforce good programming practices like clear user prompts, input validation, and modular design. These fundamentals build a solid base for further exploration into more advanced programming topics such as object-oriented programming, file handling, and graphical user interfaces.
+1. Start the program.  
+2. Display a welcome message.  
+3. Prompt the user to enter two whole numbers.  
+4. Read the inputs: `num1`, `num2`.  
+5. Call the function `add(num1, num2)` and display the sum.  
+6. Call the function `subtract(num1, num2)` and display the difference.  
+7. Call the function `multiply(num1, num2)` and display the product.  
+8. Check if `num2 == 0`:  
+   - If **not zero**, call the function `divide(num1, num2)` and display the quotient.  
+   - If **zero**, display an error message.  
+9. Display a thank-you message.  
+10. End the program.  
 
-Through these exercises, beginners gain confidence in writing syntactically correct C++ code, managing data types, implementing logic using functions, and engaging with users in a friendly manner, which are crucial skills for any aspiring programmer.
+
+
+### For the Greeting Program  
+
+1. Start the program.  
+2. Prompt the user to enter their name.  
+3. Read the input into a string variable `name`.  
+4. Display a personalized greeting using the entered name.  
+5. End the program.  
+
+
+
+## CONCLUSION  
+
+The two programs together serve as an excellent introduction to **essential C++ programming concepts**:  
+
+- The **calculator program** demonstrates the power of functions in breaking down operations into manageable tasks.  
+  - Improves **clarity** and **reusability**.  
+  - Introduces **type casting** and **error handling** (e.g., preventing division by zero).  
+
+- The **greeting program** highlights **user interaction** through string input and output.  
+  - Helps understand how to manage **text data** in C++.  
+
+Both programs reinforce good programming practices:  
+- Clear user prompts  
+- Input validation  
+- Modular design  
+
+These fundamentals provide a solid base for further exploration into:  
+- **Object-Oriented Programming (OOP)**  
+- **File handling**  
+- **Graphical User Interfaces (GUI)**  
+
+Through these exercises, beginners gain confidence in:  
+- Writing **syntactically correct C++ code**  
+- Managing **data types**  
+- Implementing **logic with functions**  
+- Creating **user-friendly programs**  
+
+These are crucial skills for any aspiring programmer.  
