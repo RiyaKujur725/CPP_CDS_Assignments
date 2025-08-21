@@ -1,125 +1,127 @@
-AIM : 
+## AIM  
 
-To develop and demonstrate fundamental programming concepts in C++ through multiple small-scale applications that perform arithmetic calculations, logical checks, and decision-making tasks. The programs include:
+To develop and demonstrate fundamental programming concepts in **C++** through multiple small-scale applications that perform arithmetic calculations, logical checks, and decision-making tasks. The programs include:
 
-A simple calculator performing basic arithmetic operations.
-An even or odd number checker.
-A program to find the largest among three numbers.
-A menu-driven movie review selector.
-A vowel or consonant checker for single alphabet inputs.
+- A simple calculator performing basic arithmetic operations.  
+- An even or odd number checker.  
+- A program to find the largest among three numbers.  
+- A menu-driven movie review selector.  
+- A vowel or consonant checker for single alphabet inputs.  
 
-These programs collectively illustrate core concepts such as input/output handling, conditional statements, loops, and switch-case structures in C++.
+These programs collectively illustrate core concepts such as **input/output handling, conditional statements, loops, and switch-case structures** in C++.
 
-APPLICATION USED : VS Code
 
-THEORY : 
 
-Programming in C++ enables us to translate logic and mathematical operations into automated processes that computers can execute. The provided programs cover essential programming structures and concepts:
+## APPLICATION USED  
+**Visual Studio Code (VS Code)**
 
-Simple Calculator:
-This program demonstrates how arithmetic operators work and how conditional statements can control the flow of a program based on user input. The calculator handles addition, subtraction, multiplication, and division, incorporating error handling for division by zero and invalid operator inputs.
 
-Even or Odd Checker:
-Utilizes the modulus operator (%) to determine the parity of an integer. If a number modulo 2 equals zero, it is even; otherwise, it is odd. This program introduces basic condition checking.
 
-Largest of Three Numbers:
-Uses relational operators and logical conditions to compare three integers and determine the largest. This program illustrates compound conditions and decision-making using if-else statements.
+## THEORY  
 
-Movie Review Selector:
-Demonstrates the use of a switch-case statement, a control structure used to select one of many code blocks to execute based on the value of a variable. It enhances user interaction by offering a menu for selecting movies and viewing associated ratings.
+Programming in **C++** enables us to translate logic and mathematical operations into automated processes that computers can execute. The provided programs cover essential programming structures and concepts:
 
-Vowel or Consonant Checker:
-Employs string and character handling functions, including input validation, character classification (isalpha), and case conversion (tolower). The program identifies vowels and consonants, demonstrating loops and input validation for robust user interaction.
+### 1. Simple Calculator
+- Demonstrates **arithmetic operators** and **conditional statements**.  
+- Handles `+`, `-`, `*`, `/` operations with error handling for **division by zero** and invalid operators.
 
-PROGRAMMING CONCEPTS : 
+### 2. Even or Odd Checker
+- Uses the **modulus operator (%)** to check parity of an integer.  
+- If `num % 2 == 0`, the number is even; otherwise odd.  
 
-Input/Output (I/O): Using cin and cout to receive user inputs and display outputs.
-Variables and Data Types: Use of int, float, char, and string types to hold data.
-Operators: Arithmetic, relational, and logical operators for processing data.
-Conditional Statements: if, else if, and else to make decisions.
-Switch-Case: An alternative to multiple if statements for multi-way branching.
-Loops: Using while to ensure valid user input.
-Error Handling: Checking for invalid inputs (e.g., invalid operators, division by zero, non-alphabet inputs).
-Code Modularity and Readability: Clear prompts and user feedback to guide interaction.
-Collectively, these programs provide foundational practice for beginner programmers to understand flow control and data manipulation in C++.
+### 3. Largest of Three Numbers
+- Uses **relational and logical operators** to compare numbers.  
+- Applies compound conditions with **if-else statements** to find the largest number.  
 
-ALGORITHM : 
+### 4. Movie Review Selector
+- Implements **switch-case** for menu-driven interaction.  
+- Displays movie names and ratings based on user choice.  
 
-1. Simple Calculator
+### 5. Vowel or Consonant Checker
+- Uses **string and character handling** (`isalpha`, `tolower`).  
+- Ensures **input validation** using loops and checks whether the input is a vowel or consonant.  
 
-I. Start the program.
-II. Display the calculator instructions and supported operations.
-III. Prompt the user to input the first number, operator, and second number.
-IV. Read inputs: num1, op, and num2.
-V. Check the operator (op):
-  a. If op is +, calculate and display num1 + num2.
-  b. Else if op is -, calculate and display num1 - num2.
-  c. Else if op is *, calculate and display num1 * num2.
-  d. Else if op is /:
-    i. If num2 is not zero, calculate and display num1 / num2.
-    ii. Else display an error message about division by zero.
-  e. Else display an invalid operator message.
-VI. Thank the user.
-VII. End the program.
 
-2. Even or Odd Checker
 
-I. Start the program.
-II. Display the program title.
-III. Prompt the user to enter an integer number.
-IV. Read the input number.
-V. Check if the number modulo 2 equals zero:
-  a. If yes, display that the number is even.
-  b. Else display that the number is odd.
-VI. End the program.
+## PROGRAMMING CONCEPTS  
 
-3. Largest of Three Numbers
+- **Input/Output (I/O):** Using `cin` and `cout` for user interaction.  
+- **Variables and Data Types:** `int`, `float`, `char`, `string`.  
+- **Operators:** Arithmetic, relational, and logical operators.  
+- **Conditional Statements:** `if`, `else if`, `else`.  
+- **Switch-Case:** For multi-way branching.  
+- **Loops:** `while` loop for input validation.  
+- **Error Handling:** Invalid operator, division by zero, non-alphabet input.  
+- **Code Modularity and Readability:** Clear prompts and user feedback.  
 
-I. Start the program.
-II. Display the program title.
-III. Prompt the user to enter three numbers one by one.
-IV. Read num1, num2, and num3.
-V. Compare the numbers:
-  a. If num1 is greater than or equal to both num2 and num3, display num1 as the largest.
-  b. Else if num2 is greater than or equal to both num1 and num3, display num2 as the largest.
-  c. Else display num3 as the largest.
-VI. End the program.
+These concepts collectively form the foundation for programming in C++.  
 
-4. Movie Review Selector
 
-I. Start the program.
-II. Display a list of movies numbered 1 to 6.
-III. Prompt the user to select a movie by entering a number between 1 and 6.
-IV. Read the user’s choice.
-V. Use a switch statement to match the choice:
-  a. For each valid choice (1 to 6), display the corresponding movie title and rating.
-  b. For invalid choices, display an error message indicating the selection is invalid.
-VI. End the program.
 
-5. Vowel or Consonant Checker
+## ALGORITHM  
 
-I. Start the program.
-II. Display the program title.
-III. Enter a loop to validate user input.
-IV. Prompt the user to enter a single alphabet character.
-V. Read the input as a string.
-VI. Check if the input length is exactly one and if the character is an alphabet letter:
-  a. If valid, break out of the loop.
-  b. Else display an error message and repeat Step IV.
-VII. Convert the input character to lowercase.
-VIII. Check if the character is a vowel (a, e, i, o, u):
-  a. If yes, display that it is a vowel.
-  b. Else display that it is a consonant.
-IX. Thank the user.
-X. End the program.
+### 1. Simple Calculator  
+1. Start program.  
+2. Display supported operations.  
+3. Input `num1`, `op`, `num2`.  
+4. Check operator:  
+   - `+`: Display sum.  
+   - `-`: Display difference.  
+   - `*`: Display product.  
+   - `/`: If `num2 != 0`, display quotient; else show error.  
+   - Else: Invalid operator message.  
+5. End program.  
 
-CONCLUSION : 
 
-These five programs collectively reinforce foundational programming skills in C++. They provide hands-on experience with input handling, arithmetic operations, conditional logic, loops, and basic error checking. Each program tackles a different use case, illustrating how programming structures can be applied to solve diverse problems.
-The Simple Calculator consolidates arithmetic operations with user-driven choices and basic exception handling for invalid operations and division by zero. This builds understanding of operator usage and control flow.
-The Even or Odd Checker and Largest of Three Numbers programs focus on logical comparisons and decision-making, essential for algorithmic thinking. The largest number finder enhances conditional logic skills through multiple comparisons.
-The Movie Review Selector introduces a switch-case construct, showcasing efficient handling of multiple discrete choices, which is more readable than numerous if-else statements.
-The Vowel or Consonant Checker emphasizes input validation, string and character manipulation, and looping to ensure robustness and user-friendly interaction.
-Together, these programs form a solid foundation for beginners in C++ programming by applying theory to practical tasks. They encourage good programming habits such as validating input, handling errors gracefully, and writing clear, maintainable code.
 
-Future enhancements might include expanding these programs with more features, better error handling, graphical interfaces, or integration with files and databases to handle larger and persistent data sets. Nonetheless, mastery of these basics is critical for progressing to advanced programming topics.
+### 2. Even or Odd Checker  
+1. Start program.  
+2. Input number.  
+3. If `num % 2 == 0`, display even.  
+4. Else, display odd.  
+5. End program.  
+
+
+
+### 3. Largest of Three Numbers  
+1. Start program.  
+2. Input `num1`, `num2`, `num3`.  
+3. Compare:  
+   - If `num1 >= num2 && num1 >= num3`, display `num1`.  
+   - Else if `num2 >= num1 && num2 >= num3`, display `num2`.  
+   - Else, display `num3`.  
+4. End program.  
+
+
+
+### 4. Movie Review Selector  
+1. Start program.  
+2. Display menu of movies (1–6).  
+3. Input choice.  
+4. Use `switch`:  
+   - Case 1–6: Display movie and rating.  
+   - Default: Invalid choice message.  
+5. End program.  
+
+
+
+### 5. Vowel or Consonant Checker  
+1. Start program.  
+2. Prompt user for input.  
+3. Validate: Input must be a single alphabet.  
+4. Convert to lowercase.  
+5. If character is `a, e, i, o, u` → vowel.  
+6. Else → consonant.  
+7. End program.  
+
+
+
+## CONCLUSION  
+
+These five programs collectively reinforce **foundational programming skills in C++**. They provide hands-on experience with:
+
+- Input handling  
+- Arithmetic operations  
+- Conditional logic  
+- Loops  
+- Error handling  
