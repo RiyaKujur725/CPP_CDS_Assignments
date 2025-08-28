@@ -7,7 +7,7 @@ To demonstrate the concepts of **Object-Oriented Programming in C++** using simp
 5. Cube Volume (Inside & Outside Class)  
 6. Cube Volume (Private Data Members)  
 
----
+
 
 ## THEORY  
 
@@ -23,7 +23,7 @@ In these experiments, we practice:
 - Performing mathematical operations with objects.  
 - Defining member functions inside and outside the class.  
 
----
+
 
 ##  ALGORITHMS  
 
@@ -37,7 +37,7 @@ In these experiments, we practice:
 5. Display all details using `cout`.  
 6. End program.  
 
----
+
 
 ### **2. Movie Class**
 **Aim:** To create a `Movie` class and display movie details.  
@@ -49,7 +49,7 @@ In these experiments, we practice:
 5. Display the details of both movies.  
 6. End program.  
 
----
+
 
 ### **3. Circle Area**
 **Aim:** To calculate the area of a circle using a class.  
@@ -61,7 +61,7 @@ In these experiments, we practice:
 5. Call `area()` and display result.  
 6. End program.  
 
----
+
 
 ### **4. Calculator**
 **Aim:** To create a calculator using member functions.  
@@ -74,7 +74,7 @@ In these experiments, we practice:
 6. Handle division by zero in `divi()`.  
 7. End program.  
 
----
+
 
 ### **5. Cube Volume (Inside & Outside Class)**
 **Aim:** To calculate volume of a cube with methods inside and outside the class.  
@@ -87,7 +87,7 @@ In these experiments, we practice:
 6. Display results from both functions.  
 7. End program.  
 
----
+
 
 ### **6. Cube Volume (Private Members)**
 **Aim:** To calculate volume of cube using private data members.  
@@ -99,7 +99,7 @@ In these experiments, we practice:
 5. Call `volume()` and display result.  
 6. End program.  
 
----
+
 
 ##  CONCLUSION  
 
