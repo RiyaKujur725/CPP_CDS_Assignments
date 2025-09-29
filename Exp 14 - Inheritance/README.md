@@ -17,22 +17,22 @@ The aim of these programs is to:
 ## THEORY
 Types of Inheritance
 
-Single Inheritance
+####Single Inheritance
 A derived class inherits from only one base class.
 
-Multiple Inheritance
+####Multiple Inheritance
 A derived class inherits from more than one base class.
 
-Multilevel Inheritance
+####Multilevel Inheritance
 A class is derived from another derived class, forming a chain.
 
-Hierarchical Inheritance
+####Hierarchical Inheritance
 Multiple derived classes inherit from a single base class.
 
-Hybrid Inheritance
+####Hybrid Inheritance
 A combination of multiple types of inheritance.
 
-Access Specifiers in Inheritance
+####Access Specifiers in Inheritance
 
 Public: Members are accessible from outside the class.
 
@@ -60,8 +60,10 @@ Specialized engineering branches inherit from a common ENTC department.
 
 GitHub users can access protected or private repository data with controlled access.
 
-ALGORITHMS
-Program 1: Multiple Inheritance (Student and Subject)
+
+
+##ALGORITHMS
+####Program 1: Multiple Inheritance (Student and Subject)
 
 Define class Student with attributes prn and name.
 
