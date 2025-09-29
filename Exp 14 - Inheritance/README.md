@@ -17,22 +17,22 @@ The aim of these programs is to:
 ## THEORY
 Types of Inheritance
 
-####Single Inheritance
+### Single Inheritance
 A derived class inherits from only one base class.
 
-####Multiple Inheritance
+### Multiple Inheritance
 A derived class inherits from more than one base class.
 
-####Multilevel Inheritance
+### Multilevel Inheritance
 A class is derived from another derived class, forming a chain.
 
-####Hierarchical Inheritance
+### Hierarchical Inheritance
 Multiple derived classes inherit from a single base class.
 
-####Hybrid Inheritance
+### Hybrid Inheritance
 A combination of multiple types of inheritance.
 
-####Access Specifiers in Inheritance
+### Access Specifiers in Inheritance
 
 Public: Members are accessible from outside the class.
 
@@ -62,83 +62,91 @@ GitHub users can access protected or private repository data with controlled acc
 
 
 
-##ALGORITHMS
-####Program 1: Multiple Inheritance (Student and Subject)
+## ALGORITHMS
+### Program 1: Multiple Inheritance (Student and Subject)
 
-Define class Student with attributes prn and name.
+**step 1:** Define class Student with attributes prn and name.
 
-Define class Subject with attributes sub and marks.
+**step 2:** Define class Subject with attributes sub and marks.
 
-Define derived class Profile that inherits publicly from both classes.
+**step 3:** Define derived class Profile that inherits publicly from both classes.
 
-Add an attribute div to Profile.
+**step 4:** Add an attribute div to Profile.
 
-Create object p1 of type Profile.
+**step 5:** Create object p1 of type Profile.
 
-Assign values to all attributes and display them.
+**step 6:** Assign values to all attributes and display them.
 
-End program.
-
-Program 2: Multilevel Inheritance (Company, Department, Employee)
-
-Define base class Company with attributes and a function sales().
-
-Define derived class Department from Company.
-
-Define derived class Employee from Department.
-
-Create an object e1 of type Employee.
-
-Assign employee details and company details.
-
-Call base class functions using derived object.
-
-Display all details.
-
-End program.
-
-Program 3: Hierarchical Inheritance (ENTC Branch Specializations)
-
-Define base class Entc with attribute students.
-
-Define two classes derived from Entc: Vlsi and Embedded.
-
-Derive Verifengg and Designengg from Vlsi.
-
-Derive Developer and Micro from Embedded.
-
-Create objects for each derived class.
-
-Assign values and display counts for students in different categories.
-
-End program.
-
-Program 4: Protected and Private Members with Inheritance (GitHub Example)
-
-Define class Github with:
-
-Public function disp().
-
-Protected member repo.
-
-Private function disp2().
-
-Public wrapper function callDisp2() to access disp2().
-
-Define class User inheriting from Github in protected mode.
-
-Add functions in User to set and display protected member repo.
-
-Add a function to call the base class public function disp().
-
-In main(), create objects of Github and User.
-
-Demonstrate access to private, protected, and public members.
-
-End program.
+**step 7:** End program.
 
 
-CONCLUSION
+
+### Program 2: Multilevel Inheritance (Company, Department, Employee)
+
+**step 1:** Define base class Company with attributes and a function sales().
+
+**step 2:** Define derived class Department from Company.
+
+**step 3:** Define derived class Employee from Department.
+
+**step 4:** Create an object e1 of type Employee.
+
+**step 5:** Assign employee details and company details.
+
+**step 6:** Call base class functions using derived object.
+
+**step 7:** Display all details.
+
+**step 8:** End program.
+
+
+
+### Program 3: Hierarchical Inheritance (ENTC Branch Specializations)
+
+**step 1:** Define base class Entc with attribute students.
+
+**step 2:** Define two classes derived from Entc: Vlsi and Embedded.
+
+**step 3:** Derive Verifengg and Designengg from Vlsi.
+
+**step 4:** Derive Developer and Micro from Embedded.
+
+**step 5:** Create objects for each derived class.
+
+**step 6:** Assign values and display counts for students in different categories.
+
+**step 7:** End program.
+
+
+
+### Program 4: Protected and Private Members with Inheritance (GitHub Example)
+
+**step 1:** Define class Github with:
+
+**step 2:** Public function disp().
+
+**step 3:** Protected member repo.
+
+**step 4:** Private function disp2().
+
+**step 5:** Public wrapper function callDisp2() to access disp2().
+
+**step 6:** Define class User inheriting from Github in protected mode.
+
+**step 7:** Add functions in User to set and display protected member repo.
+
+**step 8:** Add a function to call the base class public function disp().
+
+**step 9:** In main(), create objects of Github and User.
+
+**step 10:** Demonstrate access to private, protected, and public members.
+
+**step 11:** End program.
+
+
+
+
+## CONCLUSION
 
 From these programs, the following conclusions are drawn:
 
@@ -160,7 +168,7 @@ Academic branches and divisions can be managed using hierarchical inheritance.
 
 Secure systems such as GitHub repositories can be managed using access specifiers.
 
-Key Learning:
+## Key Learning:
 
 Inheritance promotes reusability by allowing derived classes to reuse base class code.
 
