@@ -77,48 +77,82 @@ These concepts are not just academic but have real-world importance:
 
 ##  ALGORITHMS
 
+
 ###  Program 1: Addition using Constructor Overloading
-1. Define a class `Add` with multiple constructors:
-   - `Add(int, int)` → Adds integers.
-   - `Add(float, float)` → Adds floats.
+
+**Algorithm:**
+1. Start the program.
+2. Define a class `Add`.
+3. Overload constructors as follows:
+   - `Add(int, int)` → Adds two integers.
+   - `Add(float, float)` → Adds two floating-point numbers.
    - `Add(int, int, int)` → Adds three integers.
-2. In `main()`, create objects with different arguments.
-3. Display sum according to constructor invoked.
+4. In `main()`, create three objects with different argument types.
+5. Constructor automatically executes and prints results.
+6. End program.
 
+---
 
+###  Program 2: Interest Calculation (SI and CI)
 
-###  Program 2: Interest Calculation
-1. Define a class `Interest` with two constructors:
-   - `Interest(int, int, int)` → Calculates Simple Interest (SI).
-   - `Interest(double, double, int)` → Calculates Compound Interest (CI).
-2. In `main()`, create object with floating-point values to compute CI.
-3. Display result.
+**Algorithm:**
+1. Start the program.
+2. Define a class `Interest`.
+3. Create two constructors:
+   - `Interest(int p, int r, int n)` → Calculate Simple Interest using formula:  
+     \[
+     SI = \frac{P \times R \times N}{100}
+     \]
+   - `Interest(double p, double r, int n)` → Calculate Compound Interest using formula:  
+     \[
+     CI = P \times \left(1 + \frac{R}{100}\right)^N - P
+     \]
+4. In `main()`, create object with required values.
+5. Display interest calculated.
+6. End program.
 
+---
 
+###  Program 3: String and Character Concatenation
 
-###  Program 3: String Concatenation
-1. Define a class `Concat` with overloaded functions:
-   - `Concatenate(string, string)` → Joins two strings.
-   - `Concatenate(char, char)` → Joins two characters.
-2. In `main()`, call both functions and display results.
+**Algorithm:**
+1. Start the program.
+2. Define a class `Concat`.
+3. Overload functions:
+   - `Concatenate(string, string)` → Return concatenated string.
+   - `Concatenate(char, char)` → Convert characters to string and return.
+4. In `main()`, call both versions and print results.
+5. End program.
 
-
+---
 
 ###  Program 4: Box Volume Comparison using Operator Overloading
-1. Define a class `Box` with attributes `length, width, height`.
-2. Define:
+
+**Algorithm:**
+1. Start the program.
+2. Define a class `Box` with attributes `length, width, height`.
+3. Define:
    - Constructor with default arguments.
-   - Overloaded `*` operator to compare volumes of two boxes.
-   - Function `volume()` to calculate volume.
-3. In `main()`, create two objects and compare using overloaded operator.
+   - `volume()` function to compute volume.
+   - Overloaded operator `*` to compare two volumes.
+4. In `main()`, create two `Box` objects.
+5. Use overloaded operator to compare volumes.
+6. Display which box is bigger.
+7. End program.
 
-
+---
 
 ###  Program 5: Number Addition using Operator Overloading
-1. Define a class `Number` with attribute `value`.
-2. Overload `+` operator to add two objects.
-3. Define `display()` function to show results.
-4. In `main()`, add two objects and display sum.
+
+**Algorithm:**
+1. Start the program.
+2. Define a class `Number` with attribute `value`.
+3. Overload `+` operator to add two objects.
+4. Define `display()` function to print result.
+5. In `main()`, create two `Number` objects.
+6. Add them using `+` operator and store in third object.
+7. Display all values.
+8. End program.
 
 
 
